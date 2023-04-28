@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/sunrise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:onClick="sunrisePage"
+        android:text="Next Sunrise?"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="monospace"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Helios"
+        android:textColor="@color/black"
+        android:layout_marginTop="60sp"
+        android:textSize="55dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="monospace"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sunset"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="230dp"
+        android:backgroundTint="@color/black"
+        android:text="Next sunset?"
+        android:id="@+id/sunset"
+        android:onClick="sunsetPage"
+        android:fontFamily="monospace"
+        />
+
+</RelativeLayout>
